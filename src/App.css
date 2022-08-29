@@ -1,0 +1,24 @@
+.nav{
+  font-family: 'Berkshire Swash'
+}
+.bg-banner {
+  background-image: url('../src/Asset/Adkom-Apple-New-Mac-Collection-2022-b.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 45vh;
+}
+.image {
+  background-image: url('../src/Asset/camera.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40vh;
+}
+.title{
+  font-family: 'Diplomata SC';
+}
+.wrapper{
+  display:grid;
+  height:80vh;
+  place-items:center
+}
+
