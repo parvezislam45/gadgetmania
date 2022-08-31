@@ -80,7 +80,6 @@ const Update = () => {
                     
                 </div>
             </div>
-            <Footer></Footer>
         </div>
     );
 };
