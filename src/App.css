@@ -2,10 +2,10 @@
   font-family: 'Berkshire Swash'
 }
 .bg-banner {
-  background-image: url('../src/Asset/Adkom-Apple-New-Mac-Collection-2022-b.gif');
+  background-image: url('../src/Asset/mac.png');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 45vh;
+  height: 60vh;
 }
 .image {
   background-image: url('../src/Asset/camera.jpg');
