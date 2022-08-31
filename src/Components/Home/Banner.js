@@ -27,7 +27,7 @@ const Banner = () => {
               <input
                 type="text"
                 id="voice-search"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 w-full"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 w-full"
                 required
               />
               <button
@@ -69,11 +69,11 @@ const Banner = () => {
               Search
             </button>
           </form>
-          <h1 class="mb-5 text-5xl text-yellow-700 font-bold title">
+          <h1 class="mb-5 text-5xl text-cyan-300 font-bold title">
             Gadget Mania
           </h1>
-          <h1 class="mb-5 text-2xl text-yellow-700 font-bold title">
-            All Kind Of Gadget & Gear Accesories Available
+          <h1 class="mb-5 text-2xl text-cyan-300 font-bold title">
+            All Kind Of Gadget & Gear Accessories
           </h1>
         </div>
       </div>

@@ -24,8 +24,7 @@ const NavBar = () => {
             <li><NavLink to='/'>Home</NavLink></li>
             <li><NavLink to='/about'>About Us</NavLink></li>
             <li><NavLink to='/login'>Login</NavLink></li>
-            <li><NavLink to='/contract'>Contract Us</NavLink></li>
-            <li><NavLink to='/activity'>Activity</NavLink></li>
+            <li><NavLink to='/blog'>Blog</NavLink></li>
           </ul>
         </div>
         <h1 class="btn btn-ghost normal-case text-xl text-sky-400 nav">Gadget Mania</h1>
@@ -35,8 +34,7 @@ const NavBar = () => {
           <li><NavLink to='/'>Home</NavLink></li>
           <li><NavLink to='/about'>About Us</NavLink></li>
           <li><NavLink to='/login'>Login</NavLink></li>
-          <li><NavLink to='/contract'>Contract Us</NavLink></li>
-          <li><NavLink to='/activity'>Blog</NavLink></li>
+          <li><NavLink to='/blog'>Blog</NavLink></li>
         </ul>
       </div>
       <div class="navbar-end">

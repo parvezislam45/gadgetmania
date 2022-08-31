@@ -16,6 +16,7 @@ import Footer from './Components/Home/Footer';
 import Orders from './Components/Inventory/Orders';
 import NotFound from './Components/Home/NotFound';
 import SignUp from './Components/Home/SignUp';
+import Blog from './Components/Home/Blog';
 function App() {
   return (
     <div className="App bg-black">
@@ -35,6 +36,7 @@ function App() {
           <RequireAuth><Update></Update></RequireAuth>}></Route>
         <Route path='/order:id' element={
           <RequireAuth><Orders></Orders>></RequireAuth>}></Route>
+          <Route path='/blog' element={<Blog></Blog>}></Route>
           <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
