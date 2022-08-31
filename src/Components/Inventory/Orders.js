@@ -7,7 +7,7 @@ const Orders = () => {
     const [user] = useAuthState(auth);
     const [products, setProducts] = useState([]);
     useEffect(() => {
-        fetch("http://localhost:7000/product")
+        fetch("https://fierce-wave-53573.herokuapp.com/product")
             .then(res => res.json())
             .then(data => setProducts(data));
     }, [])
@@ -16,7 +16,7 @@ const Orders = () => {
     const handleDelate = id =>{
         const proceed = window.confirm('Are You Sure Delate This ???')
         if(proceed){
-            const url = `http://localhost:7000/product/${id}`
+            const url = `https://fierce-wave-53573.herokuapp.com/product/${id}`
             fetch(url, {
                 method:'DELETE'
             })

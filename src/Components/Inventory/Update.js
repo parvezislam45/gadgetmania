@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import UseServiceDetails from '../../Hook/UseServiceDetails'
-import Footer from '../Home/Footer'
 const Update = () => {
     const { id } = useParams();
     const [product, setProduct] = UseServiceDetails(id)
     const [isReload, setIsreload] = useState(false)
     useEffect(() => {
-        const url = `http://localhost:7000/product/${id}`
+        const url = `https://fierce-wave-53573.herokuapp.com/product/${id}`
         fetch(url)
             .then(res => res.json())
             .then(data => setProduct(data))

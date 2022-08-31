@@ -10,7 +10,7 @@ const AllLaptop = () => {
   const handleDelate = id =>{
     const proceed = window.confirm('Are You Sure Delate This ???')
     if(proceed){
-        const url = `http://localhost:7000/product/${id}`
+        const url = `https://fierce-wave-53573.herokuapp.com/product/${id}`
         fetch(url, {
             method:'DELETE'
         })

@@ -3,7 +3,7 @@ import { useForm } from 'react-hook-form';
 const AddItem = () => {
     const { register, handleSubmit } = useForm();
     const handleAdd = (data, event) => {
-        const url = `http://localhost:7000/product`;
+        const url = `https://fierce-wave-53573.herokuapp.com/product`;
         fetch(url, {
             method: 'POST',
             headers: {
