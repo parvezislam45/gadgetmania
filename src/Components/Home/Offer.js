@@ -2,7 +2,7 @@ import React from "react";
 
 const Offer = () => {
   return (
-    <div className="container mx-auto grid grid-cols-3 gap-10 mt-20 gap-y-15">
+    <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 mt-20 gap-y-15">
       <div class=" flex justify-center items-center">
         <div class="flex flex-col justify-between w-80 sm:w-96 h-96 bg-black bg-center text-gray-800 shadow-md overflow-hidden cursor-pointer">
           <div class="flex justify-between items-center ml-4 pr-8">

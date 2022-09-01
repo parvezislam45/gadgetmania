@@ -1,8 +1,8 @@
 import React from "react";
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
-const Details = ({  product,handleDelate }) => {
-  const {_id, name, img, price,quantity } = product;
+const Details = ({ product, handleDelate }) => {
+  const { _id, name, img, price, quantity } = product;
   return (
     <div class="container">
       <div class="max-w-md w-full bg-gray-900 shadow-2xl rounded-xl p-6 border-solid border-2 border-sky-500 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-black duration-700">
@@ -53,42 +53,14 @@ const Details = ({  product,handleDelate }) => {
             </div>
             <div class="text-xl text-white font-semibold mt-3">${price}</div>
             <div class="text-xl text-white font-semibold mt-3">${quantity}</div>
-            <div class="flex space-x-2 text-sm font-medium justify-start">
-              <button
-                class="text-white bg-fuchsia-900 hover:bg-teal-600 focus:ring-4 focus:outline-none focus:ring-teal-600 font-medium rounded-lg text-sm px-3 py-1 text-center inline-flex items-center mr-2 dark:bg-fuchsia-900 dark:hover:bg-fuchsia-900 dark:focus:ring-fuchsia-900 mt-3"
-              >
-                <svg
-                  class="w-5 h-5 mr-2 -ml-1"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path>
-                </svg>
-                Buy
-                </button>
-              <button
-                type="button"
-                class="text-white bg-fuchsia-900 hover:bg-teal-600 focus:ring-4 focus:outline-none focus:ring-teal-600 font-medium rounded-lg text-sm px-3 py-1 text-center inline-flex items-center mr-2 dark:bg-fuchsia-900 dark:hover:bg-fuchsia-900 dark:focus:ring-fuchsia-900 mt-3"
-              >
-                <svg
-                  class="w-5 h-5 mr-2 -ml-1"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path>
-                </svg>
-                Cart
-              </button>
-            </div>
+
           </div>
           <div className="mb-3">
-                        <button onClick={() => handleDelate(_id)} type="button" class="text-green-700 hover:text-white border border-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-1.5 text-center  dark:border-green-500 dark:text-green-500 dark:hover:text-white dark:hover:bg-green-600 dark:focus:ring-green-800">delete</button>
+            <button onClick={() => handleDelate(_id)} type="button" class="text-green-700 hover:text-white border border-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-1.5 text-center  dark:border-green-500 dark:text-green-500 dark:hover:text-white dark:hover:bg-green-600 dark:focus:ring-green-800">delete</button>
 
 
-                    </div>
-                    <Link to={`/update/${_id}`}><button type="button" class="text-purple-700 hover:text-white border border-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-purple-400 dark:text-purple-400 dark:hover:text-white dark:hover:bg-purple-500 dark:focus:ring-purple-900">Manage-Quantity</button></Link>
+          </div>
+          <Link to={`/update/${_id}`}><button type="button" class="text-purple-700 hover:text-white border border-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-purple-400 dark:text-purple-400 dark:hover:text-white dark:hover:bg-purple-500 dark:focus:ring-purple-900">Manage-Quantity</button></Link>
         </div>
       </div>
     </div>
