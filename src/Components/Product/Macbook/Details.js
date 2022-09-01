@@ -51,8 +51,8 @@ const Details = ({ product, handleDelate }) => {
                 </h2>
               </div>
             </div>
-            <div class="text-xl text-white font-semibold mt-3">${price}</div>
-            <div class="text-xl text-white font-semibold mt-3">${quantity}</div>
+            <div class="text-xl text-white font-semibold mt-3">Price :${price}</div>
+            <div class="text-xl text-white font-semibold mt-3">Quantity :${quantity}</div>
 
           </div>
           <div className="mb-3">
