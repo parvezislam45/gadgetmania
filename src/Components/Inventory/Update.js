@@ -21,7 +21,7 @@ const Update = () => {
             // toast('Quantity Added SuccessFully')
         }
         else {
-            const url = `http://localhost:7000/user/${id}`;
+            const url = `https://fierce-wave-53573.herokuapp.com/user/${id}`;
             fetch(url, {
                 method: 'PUT',
                 headers: {
@@ -42,7 +42,7 @@ const Update = () => {
     const delivery = e => {
         const quantity = product?.quantity
         const updateItem = { quantity }
-        const url = `http://localhost:7000/delivery/${id}`;
+        const url = `https://fierce-wave-53573.herokuapp.com/delivery/${id}`;
         fetch(url, {
             method: 'PUT',
             headers: {
