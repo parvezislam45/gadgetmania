@@ -28,7 +28,7 @@ const New = () => {
               <img
                 src="https://s.abcnews.com/images/Business/amazon_drones_main_190605_hpMain_4x5_992.jpg"
                 alt="Just a flower"
-                class=" w-full   object-fill  rounded-2xl"
+                class=" w-full h-72  object-fill  rounded-2xl"
               />
             </div>
             <div class="flex-auto justify-evenly">
@@ -120,9 +120,9 @@ const New = () => {
                 </button>
               </div>
               <img
-                src="https://i.ibb.co/Q6JVf0L/sony.jpg"
+                src="https://cdn.vox-cdn.com/thumbor/ETDTU7WIZX6DGIw_KU1nrjy0A_M=/0x0:6732x4488/2000x1333/filters:focal(3366x2244:3367x2245)/cdn.vox-cdn.com/uploads/chorus_asset/file/24142459/Sony_A7RV_camera_ADiBenedetto_0001.jpg"
                 alt="Just a flower"
-                class=" w-full   object-fill  rounded-2xl"
+                class=" w-full h-72  object-fill  rounded-2xl"
               />
             </div>
             <div class="flex-auto justify-evenly">
@@ -215,9 +215,9 @@ const New = () => {
                 </button>
               </div>
               <img
-                src="https://i.ibb.co/zHZ4f56/play.jpg"
+                src="https://i.insider.com/60621dbf67187800184ad1e8?width=700"
                 alt="Just a flower"
-                class=" w-full   object-fill  rounded-2xl"
+                class=" w-full  h-72 object-fill  rounded-2xl"
               />
             </div>
             <div class="flex-auto justify-evenly">
@@ -309,9 +309,9 @@ const New = () => {
                 </button>
               </div>
               <img
-                src="https://i.ibb.co/N94j1yv/projector.jpg"
+                src="https://s.yimg.com/ny/api/res/1.2/yieYEnr7X_V357kdPU_XNQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2019-09/be41b640-db8d-11e9-9d77-5f9d63a32956"
                 alt="Just a flower"
-                class=" w-full   object-fill  rounded-2xl"
+                class=" w-full  h-72 object-fill  rounded-2xl"
               />
             </div>
             <div class="flex-auto justify-evenly">
